@@ -9,6 +9,8 @@ https://drive.google.com/drive/folders/1S1A1v9tPvgonHW5u0rwP2oOdCCgTf2uj?usp=sha
 
 Die Links zum Datenset: 
 
-Auswertungsdatenset Klassifizierung: 
+Auswertungsdatenset Klassifizierung: ca. 2000 Dateien
 https://drive.google.com/drive/folders/1s3AkZARE1HfVVoi3oz_8SxP5564x39gC?usp=share_link
 
+konvertiertes Segmentierungsdatenset: (ca. 3000 Dateien)
+https://drive.google.com/drive/folders/1RWacr3gXgwt4j3IxUWHLem18d4ujB3h9?usp=share_link
