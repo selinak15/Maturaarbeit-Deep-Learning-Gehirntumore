@@ -1,0 +1,143 @@
+{
+  "timestamp": "2025-10-16T13:38:38.294836",
+  "model": "Devarshi/Brain_Tumor_Classification",
+  "total_images": 3079,
+  "valid_images": 3079,
+  "original_metrics": {
+    "accuracy": 0.9574537187398506,
+    "f1_macro": 0.9540232032732888,
+    "f1_weighted": 0.9575502721155108,
+    "per_class": {
+      "glioma": {
+        "f1": 0.9698033707865169,
+        "recall": 0.9590277777777778,
+        "precision": 0.9808238636363636
+      },
+      "meningioma": {
+        "f1": 0.9413427561837456,
+        "recall": 0.940677966101695,
+        "precision": 0.942008486562942
+      },
+      "pituitary": {
+        "f1": 0.9509234828496043,
+        "recall": 0.9677765843179377,
+        "precision": 0.9346473029045643
+      }
+    }
+  },
+  "optimized_metrics": {
+    "accuracy": 0.9584280610587853,
+    "f1_macro": 0.9551336117953341,
+    "f1_weighted": 0.9585173494497967,
+    "class_weights": {
+      "glioma": 0.9740259740259739,
+      "meningioma": 0.9684601113172543,
+      "pituitary": 1.0575139146567716
+    },
+    "improvement": {
+      "accuracy": 0.0009743423189346734,
+      "f1_macro": 0.0011104085220452475
+    },
+    "per_class": {
+      "glioma": {
+        "f1": 0.9701440112399017,
+        "recall": 0.9590277777777778,
+        "precision": 0.9815209665955935
+      },
+      "meningioma": {
+        "f1": 0.9426751592356688,
+        "recall": 0.940677966101695,
+        "precision": 0.9446808510638298
+      },
+      "pituitary": {
+        "f1": 0.9525816649104321,
+        "recall": 0.9709989258861439,
+        "precision": 0.9348500517063082
+      }
+    }
+  },
+  "error_analysis": {
+    "total_errors": 131,
+    "high_confidence_errors": 55,
+    "medium_confidence_errors": 58,
+    "low_confidence_errors": 18,
+    "top_10_critical": [
+      {
+        "filename": "glioma_100820_827.png",
+        "true": "glioma",
+        "predicted": "meningioma",
+        "confidence": 0.9999862015247345,
+        "error_magnitude": 0.9999828275240645
+      },
+      {
+        "filename": "meningioma_101016_9.png",
+        "true": "meningioma",
+        "predicted": "glioma",
+        "confidence": 0.999943271279335,
+        "error_magnitude": 0.9998916199917574
+      },
+      {
+        "filename": "glioma_MR051796_2953.png",
+        "true": "glioma",
+        "predicted": "pituitary",
+        "confidence": 0.9998735785484314,
+        "error_magnitude": 0.999759488631355
+      },
+      {
+        "filename": "meningioma_102929_251.png",
+        "true": "meningioma",
+        "predicted": "pituitary",
+        "confidence": 0.9998662173748016,
+        "error_magnitude": 0.9997340736597948
+      },
+      {
+        "filename": "glioma_101020_828.png",
+        "true": "glioma",
+        "predicted": "meningioma",
+        "confidence": 0.9994545355439186,
+        "error_magnitude": 0.9991045008404882
+      },
+      {
+        "filename": "glioma_107747_853.png",
+        "true": "glioma",
+        "predicted": "meningioma",
+        "confidence": 0.9994805380702019,
+        "error_magnitude": 0.9989614814226684
+      },
+      {
+        "filename": "meningioma_102929_250.png",
+        "true": "meningioma",
+        "predicted": "pituitary",
+        "confidence": 0.9994134977459908,
+        "error_magnitude": 0.9988344411173102
+      },
+      {
+        "filename": "glioma_90284_871.png",
+        "true": "glioma",
+        "predicted": "meningioma",
+        "confidence": 0.9985421523451805,
+        "error_magnitude": 0.9981526180375795
+      },
+      {
+        "filename": "meningioma_110116_345.png",
+        "true": "meningioma",
+        "predicted": "pituitary",
+        "confidence": 0.9989152997732162,
+        "error_magnitude": 0.9978326280815963
+      },
+      {
+        "filename": "glioma_101020_831.png",
+        "true": "glioma",
+        "predicted": "meningioma",
+        "confidence": 0.9988182112574577,
+        "error_magnitude": 0.9976655774717074
+      }
+    ]
+  },
+  "auc_scores": {
+    "glioma": 0.9971349400040674,
+    "meningioma": 0.9950448808221757,
+    "pituitary": 0.9965841379186193
+  },
+  "macro_auc": 0.9962546529149542
+}

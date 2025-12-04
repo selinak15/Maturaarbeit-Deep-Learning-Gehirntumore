@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-10-05T09:33:15.212336",
+  "model": "Devarshi/Brain_Tumor_Classification",
+  "total_images": 1311,
+  "valid_images": 1271,
+  "accuracy": 0.8347757671125098,
+  "balanced_accuracy": 0.8213325203204077,
+  "precision_macro": 0.8676663399926855,
+  "recall_macro": 0.8213325203204077,
+  "f1_macro": 0.8190265617640633,
+  "mcc": 0.7928539386866434,
+  "kappa": 0.7779968060684699,
+  "auc_scores": {
+    "glioma": 0.9739885408977468,
+    "meningioma": 0.9673146223146223,
+    "notumor": 0.9992630483787064,
+    "pituitary": 0.9949242504130198
+  },
+  "macro_auc": 0.9838726155010238,
+  "confusion_matrix": [
+    [
+      167,
+      21,
+      10,
+      92
+    ],
+    [
+      4,
+      213,
+      10,
+      69
+    ],
+    [
+      0,
+      2,
+      391,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      290
+    ]
+  ],
+  "label_mapping_applied": true,
+  "standard_classes": [
+    "glioma",
+    "meningioma",
+    "notumor",
+    "pituitary"
+  ]
+}
