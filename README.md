@@ -9,3 +9,6 @@ https://drive.google.com/drive/folders/1S1A1v9tPvgonHW5u0rwP2oOdCCgTf2uj?usp=sha
 
 Die Links zum Datenset: 
 
+Auswertungsdatenset Klassifizierung: 
+https://drive.google.com/drive/folders/1s3AkZARE1HfVVoi3oz_8SxP5564x39gC?usp=share_link
+
