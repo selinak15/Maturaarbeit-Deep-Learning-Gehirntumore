@@ -28,4 +28,5 @@ https://drive.google.com/drive/folders/1X8-zfaEHYHMHzilfnmGee8nTysf__D8C?usp=sha
 
 Falls Sie die Links beziehungsweise die Datensets benutzen, bitte zitieren Sie: 
 Segmentierung: Cheng, J., Huang, W., Cao, S., Yang, R., Yang, W., Yun, Z., Wang, Z., & Feng, Q. (2015). Enhanced Performance of Brain Tumor Classification via Tumor Region Augmentation and Partition. PLOS ONE, 10(10), e0140381. 
+
 Klassifizierung: Masoud Nickparvar. (2021). Brain Tumor MRI Dataset. Doi.org. https://doi.org/10.34740/KAGGLE/DSV/2645886
