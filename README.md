@@ -14,3 +14,7 @@ https://drive.google.com/drive/folders/1s3AkZARE1HfVVoi3oz_8SxP5564x39gC?usp=sha
 
 konvertiertes Segmentierungsdatenset: (ca. 3000 Dateien)
 https://drive.google.com/drive/folders/1RWacr3gXgwt4j3IxUWHLem18d4ujB3h9?usp=share_link
+
+Sementierungsdatenset: 
+https://drive.google.com/drive/folders/1X8-zfaEHYHMHzilfnmGee8nTysf__D8C?usp=share_link
+
