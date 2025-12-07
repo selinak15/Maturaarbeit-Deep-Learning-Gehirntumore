@@ -1,8 +1,6 @@
 {
   "timestamp": "2025-10-05T09:33:15.212336",
   "model": "Devarshi/Brain_Tumor_Classification",
-  "total_images": 1311,
-  "valid_images": 1271,
   "accuracy": 0.8347757671125098,
   "balanced_accuracy": 0.8213325203204077,
   "precision_macro": 0.8676663399926855,
