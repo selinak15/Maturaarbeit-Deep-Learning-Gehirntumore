@@ -1,3 +1,4 @@
+AUSWERTUNG ORIGINALMODELL + KONVERTIERTER SEGMENTIERUNGSDATENSATZ
 Anmerkung: Auf der S.42 (Diskussion/Interpretation der Resultate) ist ein Fehler, die Accuracy ist 75% und nicht 83% (das ist die Precision). 
 
 Hardware: GPU (Tesla T4)
