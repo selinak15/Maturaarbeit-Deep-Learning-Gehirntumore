@@ -262,12 +262,6 @@ Niedrige Konfidenz (<0.6):  395 Fehler
 💡 Hohe Konfidenz-Fehler könnten falsche Labels sein!
 
 
-================================================================================
-💾 ERGEBNISSE SPEICHERN
-================================================================================
-✅ brain_tumor_results_complete.csv gespeichert
-✅ critical_errors.csv gespeichert
-✅ evaluation_summary.json gespeichert
 
 ================================================================================
 📊 FINALER EVALUATIONS-BERICHT
@@ -305,17 +299,7 @@ notumor: F1=0.000
 • Hauptproblem: glioma → pituitary
   (370x)
 
-📝 NÄCHSTE SCHRITTE:
-───────────────────────────────────────────────────────────────
-1. Überprüfe critical_errors.csv manuell
-2. Korrigiere falsche Labels falls vorhanden
-3. Falls keine Label-Fehler: Retraining mit Class Weights nötig
 
-💾 GESPEICHERTE DATEIEN:
-───────────────────────────────────────────────────────────────
-• brain_tumor_results_complete.csv
-• critical_errors.csv
-• evaluation_summary.json
 
 
 ================================================================================
