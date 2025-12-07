@@ -1,5 +1,17 @@
+KI-Modelle: 
+
+Claude (Sonnet + Opus 4.5)
+Gemini 3
+Chat GPT 5/5.1
+
+
 Für das Programmieren habe ich Claude genutzt sowohl unter der Website: https://chat.kellernet.me (Sonnet 4.5/Opus 4.5) als auch lokal (Claude Command). 
 
 Mit Claude Command habe ich ein Dokument, dass alle Anapassungen sowie generierter Code zusammenfasst (siehe claude.md und fine_tuning_strategy.md). 
 
 Für Claude auf der Website chat.kellernet.me habe ich alle Prompts exportiert (selina_conversations_export.csv).
+
+Für Chat GPT siehe Overview_ChatGPT
+
+Ich habe für die Korrektur Gemini (Gemini 3) benutzt (https://gemini.google.com/share/2aa7121d36d6). 
+
