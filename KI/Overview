@@ -1,1 +1,5 @@
+Für das Programmieren habe ich Claude genutzt sowohl unter der Website: https://chat.kellernet.me (Sonnet 4.5/Opus 4.5) als auch lokal (Claude Command). 
 
+Mit Claude Command habe ich ein Dokument, dass alle Anapassungen sowie generierter Code zusammenfasst (siehe claude.md). 
+
+Für Claude auf der Website chat.kellernet.me habe ich alle Prompts exportiert (selina_conversations_export.csv).
