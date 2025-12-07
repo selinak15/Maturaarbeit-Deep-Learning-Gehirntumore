@@ -1,0 +1,87 @@
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+================================================================================
+🧠 BRAIN TUMOR CLASSIFICATION - FINE-TUNING
+================================================================================
+
+⚙️ Hardware: cuda
+   GPU: Tesla T4
+
+📦 Lade Modell und Processor...
+
+Friere erste 2 Layer ein...
+   ✅ Embeddings eingefroren
+   📊 Gefunden: 4 Encoder-Layer
+   ❄️ Layer 0 eingefroren
+   ❄️ Layer 1 eingefroren
+   🔥 Layer 2 trainierbar
+   🔥 Layer 3 trainierbar
+   🔥 Classifier trainierbar
+
+   📊 Trainierbare Parameter: 26,030,140 / 27,522,430 (94.6%)
+
+📊 Erstelle Datasets...
+Training Set:
+   Geladene Bilder: 5672
+   glioma      : 1311 Bilder
+   meningioma  : 1329 Bilder
+   notumor     : 1585 Bilder
+   pituitary   : 1447 Bilder
+
+Test Set:
+   Geladene Bilder: 1271
+   glioma      :  290 Bilder
+   meningioma  :  296 Bilder
+   notumor     :  395 Bilder
+   pituitary   :  290 Bilder
+
+🚀 Starte Fine-Tuning...
+   Epochs: 5
+   Batch Size: 16
+   Learning Rate: 2e-05
+================================================================================
+wandb: Logging into wandb.ai. (Learn how to deploy a W&B server locally: https://wandb.me/wandb-server)
+wandb: You can find your API key in your browser here: https://wandb.ai/authorize?ref=models
+wandb: Paste an API key from your profile and hit enter:wandb: WARNING If you're specifying your api key in code, ensure this code is not shared publicly.
+wandb: WARNING Consider setting the WANDB_API_KEY environment variable, or running `wandb login` from the command line.
+wandb: No netrc file found, creating one.
+wandb: Appending key for api.wandb.ai to your netrc file: /root/.netrc
+wandb: Currently logged in as: selina-julia-keller (selina-julia-keller-kantonsschule-hottingen) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+Tracking run with wandb version 0.22.2
+Run data is saved locally in /content/wandb/run-20251016_110453-6ksy8r9v
+Syncing run curious-universe-1 to Weights & Biases (docs)
+View project at https://wandb.ai/selina-julia-keller-kantonsschule-hottingen/huggingface
+View run at https://wandb.ai/selina-julia-keller-kantonsschule-hottingen/huggingface/runs/6ksy8r9v
+ [ 171/1775 07:59 < 1:15:46, 0.35 it/s, Epoch 0.48/5]
+Epoch	Training Loss	Validation Loss
+ [1775/1775 26:26, Epoch 5/5]
+Epoch	Training Loss	Validation Loss	Accuracy	Precision	Recall	F1
+1	0.059500	0.051411	0.984264	0.983445	0.982846	0.983053
+2	0.024900	0.036580	0.994493	0.994155	0.993983	0.994033
+3	0.007200	0.023900	0.994493	0.994018	0.994035	0.994025
+4	0.003300	0.020842	0.996066	0.995793	0.995707	0.995737
+5	0.000900	0.023742	0.995279	0.994971	0.994845	0.994885
+
+✅ Training abgeschlossen!
+   Final Loss: 0.0272
+
+📊 Finale Evaluation auf Test-Set...
+ [80/80 00:12]
+
+================================================================================
+🎯 FINALE METRIKEN
+================================================================================
+Accuracy:   0.9961
+Precision:  0.9958
+Recall:     0.9957
+F1-Score:   0.9957
+
+💾 Speichere finales Modell...
+✅ Modell gespeichert: /content/drive/My Drive/Brain_Tumor_FineTuned/final_model
+
+================================================================================
+📈 VERBESSERUNG
+================================================================================
+Original Modell:      91.0%
+Fine-Tuned Modell:    99.6%
+Verbesserung:         +8.6%
+
