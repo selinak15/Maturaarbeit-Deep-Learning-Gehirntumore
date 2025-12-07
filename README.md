@@ -40,4 +40,4 @@ Segmentierung: Cheng, J., Huang, W., Cao, S., Yang, R., Yang, W., Yun, Z., Wang,
 
 Klassifizierung: Masoud Nickparvar. (2021). Brain Tumor MRI Dataset. Doi.org. https://doi.org/10.34740/KAGGLE/DSV/2645886
 
-Im Literaturordner sind nützliche Ressourcen beschrieben und Links angegeben. Im KI-Ordner sind alle Prompts zu finden, sowie alle KI generierten Codes. Im Codeordner sind alle verendeten Codes zu finden. Im Resultateordner 
+Im Literaturordner sind nützliche Ressourcen beschrieben und Links angegeben. Im KI-Ordner sind alle Prompts zu finden, sowie alle KI generierten Codes. Im Codeordner sind alle verendeten Codes zu finden. Im Resultateordner sind die Outputs der Entwicklungsumgebung zu finden. Im Brain_Tumor_Results sind die Tabellen der Auswertungsversuche der Klassifikation. 
