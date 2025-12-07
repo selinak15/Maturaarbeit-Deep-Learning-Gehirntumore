@@ -14,7 +14,7 @@ Gehirntumore:
 
 Klassifizierung
 Abdusalomov, A. B., Mukhiddinov, M., & Whangbo, T. K. (2023). Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging. Cancers, 15(16), 4172. https://doi.org/10.3390/cancers15164172
-
+Gómez-Guzmán, M. A., Jiménez-Beristain, L., García-Guerrero, E. E., Aguirre-Castro, O. A., Esqueda-Elizondo, J. J., Ramos-Acosta, E. R., Galindo-Aldana, G. M., Torres-Gonzalez, C., & Inzunza-Gonzalez, E. (2025). Enhanced Multi-Class Brain Tumor Classification in MRI Using Pre-Trained CNNs and Transformer Architectures. Technologies, 13(9), 379. https://doi.org/10.3390/technologies13090379
 
 Segmentierung
 Cheng, J., Huang, W., Cao, S., Yang, R., Yang, W., Yun, Z., Wang, Z., & Feng, Q. (2015). Enhanced Performance of Brain Tumor Classification via Tumor Region Augmentation and Partition. PLOS ONE, 10(10), e0140381. https://doi.org/10.1371/journal.pone.0140381
@@ -23,7 +23,7 @@ U-Nets:
 
 
 
-Gómez-Guzmán, M. A., Jiménez-Beristain, L., García-Guerrero, E. E., Aguirre-Castro, O. A., Esqueda-Elizondo, J. J., Ramos-Acosta, E. R., Galindo-Aldana, G. M., Torres-Gonzalez, C., & Inzunza-Gonzalez, E. (2025). Enhanced Multi-Class Brain Tumor Classification in MRI Using Pre-Trained CNNs and Transformer Architectures. Technologies, 13(9), 379. https://doi.org/10.3390/technologies13090379
+
 Hayat, M. A. (2011). Introduction. In M. A. Hayat (Ed.), Tumors of the Central Nervous system, Volume 3 (pp. 1–3). Springer Netherlands. https://doi.org/10.1007/978-94-007-1399-4_1
 Li, Z., Wu, X., & Yang, X. (2023). A Multi Brain Tumor Region Segmentation Model Based on 3D U-Net. Applied Sciences, 13(16), 9282. https://doi.org/10.3390/app13169282
 Liu, Y. (2024). Python machine learning by example: Unlock machine learning best practices with real-world use cases, fourth edition (4th ed). Packt Publishing.
