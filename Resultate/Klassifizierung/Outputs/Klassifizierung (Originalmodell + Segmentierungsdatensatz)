@@ -1,4 +1,6 @@
- Hardware: GPU (Tesla T4)
+Anmerkung: Auf der S.42 (Diskussion/Interpretation der Resultate) ist ein Fehler, die Accuracy ist 75% und nicht 83% (das ist die Precision). 
+
+Hardware: GPU (Tesla T4)
 📦 Lade Modell...
 config.json: 
  1.03k/? [00:00<00:00, 26.0kB/s]
