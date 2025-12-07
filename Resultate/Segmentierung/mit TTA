@@ -1,0 +1,103 @@
+============================================================
+📊 BALANCED SAMPLING
+============================================================
+🔍 Analysiere Datensatz für Balanced Sampling...
+Scanning Dataset: 100%|██████████| 3079/3079 [00:14<00:00, 208.50it/s]
+
+📊 ORIGINAL VERTEILUNG:
+--------------------------------------------------
+Meningiom           :  708 Bilder ( 23.0%)
+Gliom               : 1440 Bilder ( 46.8%)
+Hypophysentumor     :  931 Bilder ( 30.2%)
+
+⚖️ BALANCED SAMPLING:
+   Gewünschte Samples pro Klasse: 700
+   Tatsächliche Samples pro Klasse: 700
+--------------------------------------------------
+Meningiom           :  700 ausgewählt
+Hypophysentumor     :  700 ausgewählt
+Gliom               :  700 ausgewählt
+
+✅ FINALE BALANCED STICHPROBE: 2100 Bilder
+   Pro Klasse: 700 Bilder
+
+🧪 Teste das Laden einer .mat Datei...
+Teste mit: /content/drive/My Drive/Testing_Segmentation/first/450.mat
+✅ Erfolgreich geladen!
+   Image Shape: (512, 512)
+   Mask Shape: (512, 512)
+   Label: 1
+
+============================================================
+🚀 EVALUATION MIT TTA
+============================================================
+
+🚀 STARTE EVALUATION MIT TTA (6x Augmentationen)
+   Total Dateien: 2100
+   ⚠️ TTA aktiviert: Dauert ~6x länger aber genauer!
+
+Processing 2100/2100: 100%|██████████| 2100/2100 [09:41<00:00,  3.61it/s]
+/tmp/ipython-input-4224413095.py:599: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  axes[1, 0].boxplot(data_for_box,
+/tmp/ipython-input-4224413095.py:615: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  axes[1, 1].boxplot(class_dice_data, labels=class_labels)
+
+✅ Evaluation abgeschlossen!
+   Erfolgreich: 2100 Bilder
+   Fehlgeschlagen: 0 Bilder
+
+📊 TTA Confidence: 0.9919 ± 0.0059
+   (Höher = stabilere Vorhersagen)
+
+📊 TATSÄCHLICHE EVALUATION-VERTEILUNG:
+--------------------------------------------------
+Meningiom           :  700 Bilder ( 33.3%)
+Gliom               :  700 Bilder ( 33.3%)
+Hypophysentumor     :  700 Bilder ( 33.3%)
+
+======================================================================
+📊 EVALUATIONSERGEBNISSE
+======================================================================
+
+🎯 GESAMT-METRIKEN:
+--------------------------------------------------
+✅ Dice Coefficient: 0.6748 ± 0.3497
+   Min: 0.0000, Max: 0.9835
+   Median: 0.8617
+
+✅ IoU Score: 0.5979 ± 0.3398
+   Min: 0.0000, Max: 0.9675
+   Median: 0.7570
+
+✅ Precision: 0.7830 ± 0.3481
+✅ Recall: 0.6493 ± 0.3611
+
+✅ Hausdorff Distance: 33.85 ± 50.86 pixels
+   Median: 10.63 pixels
+
+✅ TTA Confidence: 0.9919 ± 0.0059
+
+📊 ERGEBNISSE PRO TUMOR-TYP:
+------------------------------------------------------------
+Tumor-Typ            n      Dice         Std          Min      Max     
+------------------------------------------------------------
+Meningiom            700    0.8713       0.1952       0.0000   0.9833  
+Gliom                700    0.5141       0.3738       0.0000   0.9784  
+Hypophysentumor      700    0.6390       0.3513       0.0000   0.9835  
+
+🎯 MAKRO-DURCHSCHNITT (ungewichtet über Klassen):
+   Makro Dice Score: 0.6748
+   Standard Dice Score: 0.6748
+
+
+💾 Ergebnisse gespeichert in '/content/segmentation_results_tta.json'
+
+======================================================================
+✅ EVALUATION ERFOLGREICH ABGESCHLOSSEN!
+======================================================================
+📊 Evaluiert: 2100 Bilder
+🎯 TTA: AKTIVIERT (6x Augmentationen)
+📈 Makro Dice Score: 0.6748
+📈 Standard Dice Score: 0.6748
+
+💡 TIPP: Setze USE_TTA = False (Zeile 642) um Geschwindigkeit zu vergleichen
