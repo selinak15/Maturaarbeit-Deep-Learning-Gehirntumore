@@ -9,8 +9,7 @@ GEHIRNTUMORKLASSIFIKATION: OPTIMIERTES MODELL + KLASSIFIKATION
 Device set to use cuda:0
 ✅ Modell erfolgreich geladen
 
-🔍 Suche Bilder...
-📸 Gefundene Bilder: 1311
+
 
 🚀 Starte Klassifikation mit Label-Standardisierung und Test-Time Augmentation...
 ⚠️ AGGRESSIVE TTA aktiviert: 8x Augmentationen pro Bild (deutlich länger aber genauer)
