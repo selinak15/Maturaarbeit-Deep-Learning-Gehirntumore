@@ -1,0 +1,85 @@
+============================================================
+🚀 OPTIMIERTE EVALUATION
+============================================================
+Post-Processing: True
+Optimal Thresholds: True
+
+📊 DATEN-SPLIT:
+   Validation: 420 Bilder (für Threshold Optimization)
+   Test: 1680 Bilder (finale Evaluation)
+
+============================================================
+PHASE 1: THRESHOLD OPTIMIZATION
+============================================================
+Validation Set: 100%|██████████| 420/420 [00:17<00:00, 23.74it/s]
+
+🔍 Optimiere Thresholds pro Klasse...
+   Meningiom           : Threshold = 0.300 (Dice = 0.9123)
+   Gliom               : Threshold = 0.300 (Dice = 0.8042)
+   Hypophysentumor     : Threshold = 0.310 (Dice = 0.8917)
+
+============================================================
+PHASE 2: TEST SET EVALUATION
+============================================================
+
+🚀 STARTE EVALUATION
+   Post-Processing: ✅ AKTIVIERT
+   Optimal Thresholds: ✅ AKTIVIERT
+      Meningiom: 0.300
+      Gliom: 0.300
+      Hypophysentumor: 0.310
+
+Processing 1680/1680: 100%|██████████| 1680/1680 [03:42<00:00,  7.57it/s]
+/tmp/ipython-input-1299737699.py:647: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  axes[1, 0].boxplot(class_dice_data, labels=class_labels)
+
+✅ Evaluation abgeschlossen!
+   Erfolgreich: 1680 Bilder
+   Fehlgeschlagen: 0 Bilder
+
+📊 TATSÄCHLICHE EVALUATION-VERTEILUNG:
+--------------------------------------------------
+Meningiom           :  565 Bilder ( 33.6%)
+Gliom               :  553 Bilder ( 32.9%)
+Hypophysentumor     :  562 Bilder ( 33.5%)
+
+======================================================================
+📊 EVALUATIONSERGEBNISSE
+======================================================================
+
+🎯 GESAMT-METRIKEN:
+--------------------------------------------------
+✅ Dice Coefficient: 0.8657 ± 0.2239
+   Min: 0.0000, Max: 0.9882
+   Median: 0.9434
+
+✅ IoU Score: 0.8079 ± 0.2298
+✅ Precision: 0.8770 ± 0.2157
+✅ Recall: 0.8732 ± 0.2387
+
+✅ Hausdorff Distance: 10.91 ± 18.22 pixels
+
+📊 ERGEBNISSE PRO TUMOR-TYP:
+------------------------------------------------------------
+Tumor-Typ            n      Dice         Std         
+------------------------------------------------------------
+Meningiom            565    0.9145       0.1717      
+Gliom                553    0.8105       0.2752      
+Hypophysentumor      562    0.8709       0.2008      
+
+🎯 MAKRO-DURCHSCHNITT:
+   Makro Dice Score: 0.8653
+
+
+💾 Ergebnisse gespeichert in '/content/segmentation_optimized_results.json'
+
+======================================================================
+✅ OPTIMIERTE EVALUATION ABGESCHLOSSEN!
+======================================================================
+📊 Evaluiert: 1680 Bilder
+🎯 Post-Processing: ✅
+🎯 Optimal Thresholds: ✅
+📈 Dice Score: 0.8657
+
+💡 Baseline war ~70% Dice
+💡 Erwartete Verbesserung: +5-10% → 75-80% Dice
