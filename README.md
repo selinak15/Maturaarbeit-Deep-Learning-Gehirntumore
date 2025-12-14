@@ -115,7 +115,7 @@ Ein klinischer Einsatz erfordert daher grössere Datensätze, transparente Model
 ├── Resultate/                # Outputs der Entwicklungsumgebung
 ├── code/                     # Alle verwendeten Python-Skripte
 ├── .gitignore
-├── Klassifizierug_Auswertung_Beispiel # Notebook zur Beispielklassifizierung 
+├── Notebook/                 # Notebook zur Beispielklassifizierung 
 ├── LICENSE  
 └── README.md
 
