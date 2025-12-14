@@ -109,11 +109,22 @@ Ein klinischer Einsatz erfordert daher grössere Datensätze, transparente Model
 
 ##  Repository-Struktur
 
-```text
-├── Code/                     # Alle verwendeten Python-Skripte
+├── Brain_Tumor_Results/      # Tabellen und Auswertungen der Klassifikation 
+
 ├── KI/                       # Prompts und KI-generierter Code
-├── Resultate/                # Outputs der Entwicklungsumgebung
-├── Brain_Tumor_Results/      # Tabellen und Auswertungen der Klassifikation
+
 ├── Literatur/                # Fachliteratur, Links und Ressourcen
+
+├── Resultate/                # Outputs der Entwicklungsumgebung
+
+├── Code/                     # Alle verwendeten Python-Skripte
+
+├── .gitignore
+
+├── Klassifizierug_Auswertung_Beispiel # Notebook zur Beispielklassifizierung 
+
+├── LICENSE  
+
 └── README.md
+
 
